@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Tienda de Ropa</title>
+    <!-- CSS de Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Estilos personalizados -->
+    <style>
+      body {
+        background-color: beige;
+      }
+      .jumbotron {
+        background-color: #8B4513;
+        color: white;
+        padding: 100px;
+        margin-bottom: 0;
+      }
+      h1 {
+        font-size: 5em;
+        text-align: center;
+        text-shadow: 2px 2px #6B4226;
+      }
+      .navbar-default {
+        background-color: #F5DEB3;
+        border-color: #F5DEB3;
+      }
+      .navbar-default .navbar-brand {
+        color: #8B4513;
+        font-size: 2em;
+      }
+      .navbar-default .navbar-nav > li > a {
+        color: #8B4513;
+        font-size: 1.5em;
+      }
+      .thumbnail {
+        border-color: #8B4513;
+        background-color: #F5DEB3;
+      }
+      .caption h3 {
+        color: #8B4513;
+        font-size: 2em;
+        text-align: center;
+        margin-bottom: 10px;
+      }
+      .caption p {
+        color: #8B4513;
+        font-size: 1.5em;
+        text-align: center;
+        margin-bottom: 10px;
+      }
+      .btn-default {
+        background-color: #8B4513;
+        border-color: #8B4513;
+        color: white;
+        font-size: 1.5em;
+      }
+      .btn-default:hover {
+        background-color: #6B4226;
+        border-color: #6B4226;
+        color: white;
+      }
+      .footer {
+        background-color: #8B4513;
+        color: white;
+        padding: 30px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="jumbotron">
+      <h1>Tienda de Ropa</h1>
+    </div>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Tienda de Ropa</a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Hombre</a></li>
+            <li><a href="#">Mujer</a></li>
+            <li><a href="#">Niños</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class
